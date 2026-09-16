@@ -1,0 +1,8 @@
+{
+  "name": "explain-my-code",
+  "version": "1.0.0",
+  "description": "AI-powered code explainer, debugger and optimizer using Gemini.",
+  "type": "module",
+  "scripts": {"start":"node server.js","dev":"node --watch server.js"},
+  "dependencies": {"@google/genai":"latest","dotenv":"latest","express":"latest"}
+}
